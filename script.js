@@ -71,11 +71,13 @@ function timer() {
             end.style.display = "flex";
             currScore.innerText = score.innerText;
             
+            
             button.addEventListener('click',()=>{
                 container.style.display = "flex"
                 end.style.display = "none";
                 left = 29;
                 score.innerText = "00";
+                time.style.color = "greenyellow"
             })
         }
         else {
