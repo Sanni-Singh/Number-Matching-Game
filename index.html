@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Matching Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Click the Number</h1>
+        <div class="head">
+            <div class="number">
+                <p>Nums:<span id="number">0</span></p>
+            </div>
+            <div class="time">
+                <p>Time Left:<span id="time">30</span></p>
+            </div>
+            <div class="score">
+                <p>Score:<Span id="score">00</Span></p>
+            </div>
+        </div>
+        <div class="box" id="box">
+        </div>
+    </div>
+
+    <div class="end" id="end">
+        <div class="gameOver">
+            <h2>Game Over...</h2>
+        </div>
+
+        <div class="result">
+            <div class="dance">
+                <img src="./saman/funny-dance-unscreen.gif" alt="">
+            </div>
+            <div class="resultVal">
+                <h3>Your Total Score is :</h3>
+                <p id="currScore">00</p>
+            </div>
+        </div>
+        <button class="button" id="button">Restart Game...</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
